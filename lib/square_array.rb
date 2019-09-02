@@ -1,3 +1,5 @@
+# Method 1
+
 def square_array(array)
   counter = 0
   new_array = []
@@ -7,4 +9,12 @@ def square_array(array)
     counter += 1
   end
   return new_array
+end
+
+
+# Method 2
+
+def square_array(array)
+  new_array = []
+  
 end
