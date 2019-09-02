@@ -15,6 +15,6 @@ end
 # Method 2
 
 def square_array(array)
-  new_array = array.length
-  
+  new_array = Array.new(array.length)
+  array.each_index {}
 end
