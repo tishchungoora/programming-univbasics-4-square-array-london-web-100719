@@ -1,5 +1,5 @@
 # Method 1
-=begin
+
 def square_array(array)
   counter = 0
   new_array = []
@@ -10,9 +10,9 @@ def square_array(array)
   end
   return new_array
 end
-=end
 
 
+=begin
 # Method 2
 
 def square_array(array)
@@ -20,3 +20,4 @@ def square_array(array)
   array.each_index { |i| new_array[i] = array[i]**2  }
   return new_array
 end
+=end
