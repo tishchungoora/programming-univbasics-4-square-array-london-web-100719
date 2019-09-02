@@ -16,7 +16,7 @@ end
 # Method 2
 
 def square_array(array)
-  new_array = []
+  new_array = Array.new(array.length)
   array.each_index { |i| new_array[i] = array[i]**2  }
   return new_array
 end
